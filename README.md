@@ -1,1 +1,346 @@
-# MCU_Comparison.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microcontroller Comparison | Vikram Lendave</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style1.css">
+  <---  <style>
+       
+    </style> --->
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <div class="logo">
+                <i class="fas fa-microchip"></i>
+                <h1>MCU Comparison</h1>
+            </div>
+            
+            <div class="personal-info">
+                <div class="avatar">VL</div>
+                <div class="user-details">
+                    <div class="name">Vikram Lendave</div>
+                    <div class="role">Embedded Systems Developer</div>
+                </div>
+            </div>
+            
+            <nav>
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">ARM7</a></li>
+                    <li><a href="#">STM32</a></li>
+                    <li><a href="#">PIC18</a></li>
+                    <li><a href="#">Projects</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>ARM7 vs STM32 vs PIC18 Microcontrollers</h2>
+            <div class="subtitle">Personalized Comparison for Vikram Lendave</div>
+            <p>Comprehensive technical analysis tailored to your embedded systems projects and preferences</p>
+            
+            <div class="chip-container">
+                <div class="chip arm7">
+                    <div class="chip-icon">
+                        <i class="fas fa-industry"></i>
+                    </div>
+                    <h3>ARM7</h3>
+                    <p>32-bit RISC (ARMv4T)</p>
+                    <p>Up to 100 MHz</p>
+                    <p>Legacy industrial systems</p>
+                </div>
+                
+                <div class="chip stm32">
+                    <div class="chip-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>STM32</h3>
+                    <p>32-bit Cortex-M Series</p>
+                    <p>Up to 550 MHz</p>
+                    <p>IoT, Robotics, Motor Control</p>
+                </div>
+                
+                <div class="chip pic18">
+                    <div class="chip-icon">
+                        <i class="fas fa-battery-full"></i>
+                    </div>
+                    <h3>PIC18</h3>
+                    <p>8-bit RISC</p>
+                    <p>Up to 64 MHz</p>
+                    <p>Sensors, Basic Automation</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <section class="user-recommendation">
+            <h2><i class="fas fa-user-cog"></i> Recommendation for Your Projects</h2>
+            <div class="user-recommendation-content">
+                <div class="user-recommendation-text">
+                    <p>Based on your profile as an <span class="highlight">Embedded Systems Developer</span>, we recommend:</p>
+                    
+                    <p><strong>For new designs:</strong> The <span class="highlight">STM32 series</span> offers the best balance of performance, power efficiency, and modern peripherals for your applications. The Cortex-M4/M7 cores provide ample processing power while maintaining energy efficiency.</p>
+                    
+                    <p><strong>For low-power applications:</strong> The <span class="highlight">PIC18 family</span> remains a strong choice for battery-powered sensors where ultra-low sleep current is critical.</p>
+                    
+                    <p><strong>For learning and prototyping:</strong> Both STM32 and PIC18 have excellent development boards and communities to support your projects.</p>
+                </div>
+                <div class="user-recommendation-image">
+                    <i class="fas fa-user-astronaut"></i>
+                </div>
+            </div>
+        </section>
+        
+        <section class="comparison-section">
+            <h2 class="section-title">Technical Specifications Comparison</h2>
+            
+            <div class="table-container">
+                <table class="comparison-table">
+                    <thead>
+                        <tr>
+                            <th>Feature</th>
+                            <th class="arm7-header">ARM7</th>
+                            <th class="stm32-header">STM32</th>
+                            <th class="pic18-header">PIC18</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Core Architecture</strong></td>
+                            <td>32-bit RISC (ARMv4T)</td>
+                            <td>32-bit RISC (ARM Cortex-M)</td>
+                            <td>8-bit RISC (Modified Harvard)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Max Clock Speed</strong></td>
+                            <td>≤100 MHz</td>
+                            <td>16–550 MHz</td>
+                            <td>4–64 MHz</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Performance (DMIPS)</strong></td>
+                            <td>~1.1 DMIPS/MHz</td>
+                            <td>≤4.02 DMIPS/MHz (M7)</td>
+                            <td>~0.2 DMIPS/MHz</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Flash Memory</strong></td>
+                            <td>16KB–512KB</td>
+                            <td>4KB–2MB+</td>
+                            <td>4KB–128KB</td>
+                        </tr>
+                        <tr>
+                            <td><strong>RAM</strong></td>
+                            <td>4KB–128KB</td>
+                            <td>1KB–1MB+</td>
+                            <td>128B–4KB</td>
+                        </tr>
+                        <tr>
+                            <td><strong>EEPROM</strong></td>
+                            <td>External only</td>
+                            <td>Internal (select models)</td>
+                            <td>Internal (≤1KB)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>ADC Resolution/Speed</strong></td>
+                            <td>8-12 bit / &lt;1 MSPS</td>
+                            <td>12-16 bit / ≤5 MSPS</td>
+                            <td>10-12 bit / ~100 kSPS</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Communication</strong></td>
+                            <td>UART, SPI, I²C</td>
+                            <td>USB, CAN, Ethernet, SPI, I²C</td>
+                            <td>UART, SPI, I²C (Limited USB)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>GPIO Pins</strong></td>
+                            <td>50–100</td>
+                            <td>50–200+</td>
+                            <td>10–70</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Active Power</strong></td>
+                            <td>50–100 mA (@72MHz)</td>
+                            <td>30–200 µA/MHz</td>
+                            <td>100–500 µA (@4MHz)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Sleep Current</strong></td>
+                            <td>~10 µA</td>
+                            <td>0.5–2 µA (w/RTC)</td>
+                            <td>~100 nA <span class="badge best">Best</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Voltage Range</strong></td>
+                            <td>1.8–3.6V</td>
+                            <td>1.7–3.6V</td>
+                            <td>2.0–5.5V <span class="badge best">Best</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Development Tools</strong></td>
+                            <td>Keil, IAR (Paid)</td>
+                            <td>STM32CubeIDE (Free), Keil <span class="badge best">Best</span></td>
+                            <td>MPLAB X (Free)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Unit Cost (Volume)</strong></td>
+                            <td>Discontinued (Legacy)</td>
+                            <td>$0.50–$20</td>
+                            <td>$0.50–$5 <span class="badge best">Best</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <div class="key-points">
+                <div class="point-card">
+                    <h3><i class="fas fa-tachometer-alt"></i> Performance</h3>
+                    <p><span class="highlight">STM32</span> dominates with modern Cortex-M cores and clock speeds up to 550 MHz.</p>
+                    <p>ARM7 is obsolete and has been replaced by Cortex-M.</p>
+                    <p>PIC18 suits 8-bit tasks below 64 MHz.</p>
+                </div>
+                
+                <div class="point-card">
+                    <h3><i class="fas fa-battery-low"></i> Power Efficiency</h3>
+                    <p><span class="highlight">PIC18</span> wins in sleep mode with nanoamp range consumption.</p>
+                    <p>STM32 offers the best balance between performance and power consumption.</p>
+                    <p>ARM7 is power-hungry by modern standards.</p>
+                </div>
+                
+                <div class="point-card">
+                    <h3><i class="fas fa-tools"></i> Development Ecosystem</h3>
+                    <p><span class="highlight">STM32</span> has the richest tools and libraries with STM32CubeIDE.</p>
+                    <p>PIC18 has mature but simpler tools for quick prototyping.</p>
+                    <p>ARM7 has legacy toolchain support only.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="recommendation">
+            <h2>Application Recommendations</h2>
+            <div class="rec-cards">
+                <div class="rec-card arm7">
+                    <i class="fas fa-industry"></i>
+                    <h3>ARM7</h3>
+                    <p><strong>Legacy industrial systems</strong></p>
+                    <p>Only for maintaining existing systems. Avoid for new designs.</p>
+                </div>
+                
+                <div class="rec-card stm32">
+                    <i class="fas fa-robot"></i>
+                    <h3>STM32</h3>
+                    <p><strong>Most new projects</strong></p>
+                    <p>Ideal for IoT, motor control, wearables, robotics, and complex applications.</p>
+                </div>
+                
+                <div class="rec-card pic18">
+                    <i class="fas fa-sensor"></i>
+                    <h3>PIC18</h3>
+                    <p><strong>Simple, cost-sensitive projects</strong></p>
+                    <p>Great for sensors, toys, basic automation, and ultra-low-power devices.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="contact-section">
+            <h2 class="section-title">Contact Vikram Lendave</h2>
+            <p style="text-align: center; margin-bottom: 20px;">Feel free to reach out for collaboration or questions about microcontrollers</p>
+            
+            <div class="contact-cards">
+                <div class="contact-card">
+                    <i class="fab fa-linkedin"></i>
+                    <h3>LinkedIn</h3>
+                    <a href="https://www.linkedin.com/in/vikram-lendave-aa8231267/" target="_blank">
+                        linkedin.com/in/vikram-lendave
+                    </a>
+                </div>
+                
+                <div class="contact-card">
+                    <i class="fab fa-github"></i>
+                    <h3>GitHub</h3>
+                    <a href="https://github.com/Vikramlendave02" target="_blank">
+                        github.com/Vikramlendave02
+                    </a>
+                </div>
+                
+                <div class="contact-card">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <a href="mailto:vikramlendave80@gmail.com">
+                        vikramlendave80@gmail.com
+                    </a>
+                </div>
+            </div>
+        </section>
+        
+        <footer>
+            <p>Microcontroller Comparison Dashboard &copy; 2023 | Personalized for Vikram Lendave</p>
+            <div class="footer-links">
+                <a href="https://github.com/Vikramlendave02" target="_blank">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+                <a href="https://www.linkedin.com/in/vikram-lendave-aa8231267/" target="_blank">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+                <a href="mailto:vikramlendave80@gmail.com">
+                    <i class="fas fa-envelope"></i> Email
+                </a>
+                <a href="#">
+                    <i class="fas fa-download"></i> Download PDF
+                </a>
+            </div>
+            <p>Created for embedded systems engineers and developers</p>
+        </footer>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Table row animations
+            const tableRows = document.querySelectorAll('.comparison-table tbody tr');
+            tableRows.forEach((row, index) => {
+                setTimeout(() => {
+                    row.style.opacity = '0';
+                    row.style.transform = 'translateY(20px)';
+                    row.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+                    
+                    setTimeout(() => {
+                        row.style.opacity = '1';
+                        row.style.transform = 'translateY(0)';
+                    }, 100);
+                }, 100 + (index * 50));
+            });
+            
+            // Chip hover effects
+            const chips = document.querySelectorAll('.chip');
+            chips.forEach(chip => {
+                chip.addEventListener('mouseenter', () => {
+                    chip.style.boxShadow = '0 15px 30px rgba(0, 0, 0, 0.2)';
+                });
+                
+                chip.addEventListener('mouseleave', () => {
+                    chip.style.boxShadow = 'none';
+                });
+            });
+            
+            // Contact card hover effect
+            const contactCards = document.querySelectorAll('.contact-card');
+            contactCards.forEach(card => {
+                card.addEventListener('mouseenter', () => {
+                    card.style.boxShadow = '0 15px 30px rgba(0, 0, 0, 0.2)';
+                });
+                
+                card.addEventListener('mouseleave', () => {
+                    card.style.boxShadow = '0 5px 15px rgba(0, 0, 0, 0.05)';
+                });
+            });
+        });
+    </script>
+</body>
+</html>
